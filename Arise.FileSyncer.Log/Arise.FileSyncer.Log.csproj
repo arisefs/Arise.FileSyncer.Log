@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Description>Common Logger Library</Description>
+    <PackageProjectUrl>https://github.com/arisefs/Arise.FileSyncer.Log</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/arisefs/Arise.FileSyncer.Log</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Copyright>Copyright ©2021 Csányi István</Copyright>
+    <Authors>Csányi István</Authors>
+    <Company />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+</Project>
