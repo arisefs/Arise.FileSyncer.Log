@@ -7,11 +7,11 @@ namespace Arise.FileSyncer
         public delegate void DelegateLog(string message);
 
 #pragma warning disable CA2211 // Non-constant fields should not be visible
-        public static DelegateLog Error     = (message) => Console.WriteLine(Format("E: " + message));
-        public static DelegateLog Warning   = (message) => Console.WriteLine(Format("W: " + message));
-        public static DelegateLog Info      = (message) => Console.WriteLine(Format("I: " + message));
-        public static DelegateLog Verbose   = (message) => Console.WriteLine(Format("V: " + message));
-        public static DelegateLog Debug     = (message) => Console.WriteLine(Format("D: " + message));
+        public static DelegateLog Error = (message) => Console.WriteLine(Format("E: " + message));
+        public static DelegateLog Warning = (message) => Console.WriteLine(Format("W: " + message));
+        public static DelegateLog Info = (message) => Console.WriteLine(Format("I: " + message));
+        public static DelegateLog Verbose = (message) => Console.WriteLine(Format("V: " + message));
+        public static DelegateLog Debug = (message) => Console.WriteLine(Format("D: " + message));
 #pragma warning restore CA2211 // Non-constant fields should not be visible
 
         private static string Format(string message)
